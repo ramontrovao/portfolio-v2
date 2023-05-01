@@ -34,7 +34,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/Keyboard.jsx", "src/components/Keyboard.jsx", "src/components/Keyboard.jsx", "src/components/Keyboard.jsx"  ],
   "exclude": [
     "node_modules"
   ]

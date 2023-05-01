@@ -1,13 +1,14 @@
-import { Header } from "@/components/Header";
+import { AboutMeSection } from "@/components/AboutMeSection";
+import { ArrowUp } from "@/components/ArrowUp";
+import { MainSection } from "@/components/MainSection";
 
 const Home = () => {
   return (
-    <div className="relative overflow-hidden">
-      <Header />
-      <div className="h-screen bg-zinc-900"></div>
-      <div className="h-screen bg-zinc-900"></div>
-      <div className="h-screen bg-zinc-900"></div>
-    </div>
+    <>
+      <MainSection />
+      <AboutMeSection />
+      <ArrowUp />
+    </>
   );
 };
 

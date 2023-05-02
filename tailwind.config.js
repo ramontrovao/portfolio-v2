@@ -6,7 +6,13 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "arrow-up": "url('/assets/ArrowUpPress.png')",
+        "arrow-down": "url('/assets/ArrowDownPress.png')",
+        "arrow-left": "url('/assets/ArrowLeftPress.png')",
+        "arrow-right": "url('/assets/ArrowRightPress.png')",
+      },
+    },
   },
-  plugins: [],
 };

@@ -5,13 +5,13 @@ import logo from "@assets/logo.svg";
 
 export const Footer = () => {
   return (
-    <footer className="w-full p-10 flex justify-between items-center border-t-2 bg-zinc-900 border-gray-800 ">
+    <footer className="w-full p-10 flex justify-between items-center border-t-2 bg-gray-300 border-gray-800 ">
       <div>
         <div>
-          <p className="text-sm font-body text-gray-300">
+          <p className="text-sm font-body text-zinc-900">
             &copy; Todos os direitos reservados - Ramon Pinheiro
           </p>
-          <p className="mt-1 text-sm font-body text-gray-300">
+          <p className="mt-1 text-sm font-body text-zinc-900">
             Feito com muito <span className="text-purple-700">&hearts;</span>
           </p>
         </div>
@@ -19,14 +19,14 @@ export const Footer = () => {
         <nav className="mt-5 flex gap-2">
           <a
             href=""
-            className="text-2xl text-gray-300 transition-all duration-500 hover:text-purple-700"
+            className="text-2xl text-zinc-900 transition-all duration-500 hover:text-purple-700"
           >
             <IoLogoGithub />
           </a>
 
           <a
             href=""
-            className="text-2xl text-gray-300 transition-all duration-500 hover:text-purple-700"
+            className="text-2xl text-zinc-900 transition-all duration-500 hover:text-purple-700"
           >
             <IoLogoLinkedin />
           </a>

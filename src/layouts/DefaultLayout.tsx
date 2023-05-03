@@ -17,7 +17,7 @@ export const DefaultLayout = ({ children }: IDefaultLayoutProps) => {
   return (
     <div className="relative overflow-hidden">
       <Header />
-      <main className={`${poppins.className} bg-zinc-900`}>{children}</main>
+      <main className={`${poppins.className} bg-gray-500`}>{children}</main>
       <Footer />
     </div>
   );

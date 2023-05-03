@@ -20,7 +20,7 @@ export const Header = () => {
   return (
     <header
       className={`px-10 z-50 py-5 fixed w-full transition-all duration-500 font-body ${
-        isMaximized ? "bg-zinc-900 shadow-2xl" : "bg-transparent"
+        isMaximized ? "bg-gray-200 shadow-2xl" : "bg-transparent"
       }`}
     >
       <nav className="flex flex-col items-center md:flex-row bg">
@@ -37,7 +37,7 @@ export const Header = () => {
 
           <button
             onClick={() => setMenuIsOpen(!menuIsOpen)}
-            className="text-white visible md:hidden"
+            className="text-zinc-900 visible md:hidden"
           >
             {menuIsOpen && <AiOutlineClose size={32} />}
             {!menuIsOpen && <AiOutlineMenu size={32} />}
@@ -47,7 +47,7 @@ export const Header = () => {
         <ul
           className={`${
             menuIsOpen ? "left-0 pl-10" : "left-[-880px]"
-          } bg-zinc-900 top-20 flex flex-col gap-4 w-full absolute py-10 transition-all duration-500 md:static md:bg-transparent md:py-0 md:flex md:flex-row md:justify-end md:items-center md:gap-5 md:visible`}
+          } bg-gray-200 top-20 flex flex-col gap-4 w-full absolute py-10 transition-all duration-500 md:static md:bg-transparent md:py-0 md:flex md:flex-row md:justify-end md:items-center md:gap-5 md:visible`}
         >
           <li>
             <Anchor href="#">Início</Anchor>

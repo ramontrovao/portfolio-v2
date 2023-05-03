@@ -1,6 +1,8 @@
 import { AboutMeSection } from "@/components/AboutMeSection";
 import { ArrowUp } from "@/components/ArrowUp";
 import { MainSection } from "@/components/MainSection";
+import { ProjectsSection } from "@/components/ProjectsSection";
+import { SkillsSection } from "@/components/SkillsSection";
 import Head from "next/head";
 
 const Home = () => {
@@ -13,6 +15,9 @@ const Home = () => {
 
       <MainSection />
       <AboutMeSection />
+      <SkillsSection />
+      <ProjectsSection />
+
       <ArrowUp />
     </>
   );

@@ -20,7 +20,7 @@ export const AboutMeSection = () => {
           Sobre mim
         </h2>
 
-        <p className="text-zinc-900 text-xl">
+        <p className=" text-zinc-900 text-xl">
           Olá, seja bem vindo ao meu portfólio! Meu nome é Ramon, e eu programo
           há quase um ano. Sou apaixonado por Typescript e utilizo React e
           NextJS no meu dia a dia. Atualmente sou desenvolvedor front-end, porém

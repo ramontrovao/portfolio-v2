@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Poppins } from "next/font/google";
 import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
@@ -6,6 +7,11 @@ import logo from "@assets/logo.svg";
 
 import { Button } from "./Button";
 import { Anchor } from "./Anchor";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const Header = () => {
   const [isMaximized, setIsMinimized] = useState(false);
@@ -21,7 +27,7 @@ export const Header = () => {
     <header
       className={`px-10 z-50 py-5 fixed w-full transition-all duration-500 font-body ${
         isMaximized ? "bg-gray-200 shadow-2xl" : "bg-transparent"
-      }`}
+      } ${poppins.className}`}
     >
       <nav className="flex flex-col items-center md:flex-row bg">
         <div className="max-md:w-full max-md:flex max-md:justify-between max-md:items-center">

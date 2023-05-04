@@ -1,11 +1,20 @@
 import Image from "next/image";
+import { Poppins } from "next/font/google";
 import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
 
 import logo from "@assets/logo.svg";
+import { Anchor } from "./Anchor";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const Footer = () => {
   return (
-    <footer className="w-full p-10 flex justify-between items-center border-t-2 bg-gray-300 border-gray-800 ">
+    <footer
+      className={`w-full p-10 flex justify-between items-center border-t-2 bg-gray-200 border-gray-800 ${poppins.className}`}
+    >
       <div>
         <div>
           <p className="text-sm font-body text-zinc-900">
@@ -16,20 +25,14 @@ export const Footer = () => {
           </p>
         </div>
 
-        <nav className="mt-5 flex gap-2">
-          <a
-            href=""
-            className="text-2xl text-zinc-900 transition-all duration-500 hover:text-purple-700"
-          >
-            <IoLogoGithub />
-          </a>
+        <nav className="mt-5 flex align-center gap-2">
+          <Anchor href="https://github.com/ramontrovao">
+            <IoLogoGithub size={28} />
+          </Anchor>
 
-          <a
-            href=""
-            className="text-2xl text-zinc-900 transition-all duration-500 hover:text-purple-700"
-          >
-            <IoLogoLinkedin />
-          </a>
+          <Anchor href="https://linkedin.com/ramon-pinheiro">
+            <IoLogoLinkedin size={28} />
+          </Anchor>
         </nav>
       </div>
 

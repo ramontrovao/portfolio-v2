@@ -1,4 +1,4 @@
-import { AiOutlineMobile } from "react-icons-ai";
+import { AiOutlineMobile } from "react-icons/ai";
 
 export const ProjectCard = () => {
   return (

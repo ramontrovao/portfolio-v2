@@ -1,6 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { SkillCard } from "./SkillCard";
+import "swiper/css/effect-cube";
+
+import { ProjectCard } from "./ProjectCard";
 
 export const ProjectsSection = () => {
   return (
@@ -13,24 +15,43 @@ export const ProjectsSection = () => {
         inovadores
       </h2>
 
-      <Swiper className="width-full height-full">
+      <Swiper
+        slidesPerView={4}
+        zoom={true}
+        breakpoints={{
+          425: {
+            slidesPerView: 1,
+            spaceBetween: 100,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 75,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
+        effect="cube"
+        className="mt-16 w-full h-full flex cursor-grab"
+      >
         <SwiperSlide>
-          <h1>Teste</h1>
+          <ProjectCard />
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Teste</h1>
+          <ProjectCard />
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Teste</h1>
+          <ProjectCard />
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Teste</h1>
+          <ProjectCard />
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Teste</h1>
+          <ProjectCard />
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Teste</h1>
+          <ProjectCard />
         </SwiperSlide>
       </Swiper>
     </section>

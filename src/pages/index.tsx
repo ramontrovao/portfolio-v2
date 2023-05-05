@@ -3,7 +3,7 @@ import { ArrowUp } from "@/components/ArrowUp";
 import { ContactSection } from "@/components/ContactSection";
 import { MainSection } from "@/components/MainSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
-import { SkillsSection } from "@/components/SkillsSection";
+import { ServicesSection } from "@/components/ServicesSection";
 import Head from "next/head";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
 
       <MainSection />
       <AboutMeSection />
-      <SkillsSection />
+      <ServicesSection />
       <ProjectsSection />
       <ContactSection />
 

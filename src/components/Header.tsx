@@ -31,7 +31,7 @@ export const Header = () => {
     >
       <nav className="flex flex-col items-center md:flex-row bg">
         <div className="max-md:w-full max-md:flex max-md:justify-between max-md:items-center">
-          <a href="#">
+          <a href="#inicio">
             <Image
               src={logo}
               alt=""
@@ -56,20 +56,20 @@ export const Header = () => {
           } bg-gray-200 top-20 flex flex-col gap-4 w-full absolute py-10 transition-all duration-500 md:static md:bg-transparent md:py-0 md:flex md:flex-row md:justify-end md:items-center md:gap-5 md:visible`}
         >
           <li>
-            <Anchor href="#">Início</Anchor>
+            <Anchor href="#inicio">Início</Anchor>
           </li>
           <li>
-            <Anchor href="#">Sobre mim</Anchor>
+            <Anchor href="#sobre-mim">Sobre mim</Anchor>
           </li>
           <li>
-            <Anchor href="#">Habilidades</Anchor>
+            <Anchor href="#servicos">Habilidades</Anchor>
           </li>
           <li>
-            <Anchor href="#">Projetos</Anchor>
+            <Anchor href="#projetos">Projetos</Anchor>
           </li>
 
           <li>
-            <a href="#">
+            <a href="#contato">
               <Button>Vamos conversar?</Button>
             </a>
           </li>

@@ -36,7 +36,7 @@ export const Footer = () => {
         </nav>
       </div>
 
-      <a href="#">
+      <a href="#inicio">
         <Image src={logo} alt="" className="w-12" />
       </a>
     </footer>

@@ -8,6 +8,7 @@ export const AboutMeSection = () => {
     <motion.section
       ref={constraintsRef}
       className="relative min-h-fit pt-44 pb-24 px-10 flex flex-col justify-start items-start overflow-hidden bg-gray-200"
+      id="sobre-mim"
     >
       <div className="absolute w-full h-full flex justify-center align-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] max-md:hidden">
         <strong className="bg-clip-text bg-gradient-to-r from-zinc-800 to-zinc-900 opacity-5 text-8xl text-center cursor-default selection:bg-transparent">

@@ -5,7 +5,10 @@ import { ProjectCard } from "./ProjectCard";
 
 export const ProjectsSection = () => {
   return (
-    <section className="flex flex-col justify-center items-center py-24 px-10 bg-gray-200">
+    <section
+      className="flex flex-col justify-center items-center py-24 px-10 bg-gray-200"
+      id="projetos"
+    >
       <h2 className="text-center text-zinc-900 font-bold text-4xl">
         Meus melhores{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-700">

@@ -2,13 +2,13 @@ import { ReactNode } from "react";
 import { motion } from "framer-motion";
 import { AiOutlineMobile } from "react-icons/ai";
 
-interface ISkillCard {
+interface IServiceCard {
   icon: ReactNode;
   title: string;
   description: string;
 }
 
-export const SkillCard = ({ icon, title, description }: ISkillCard) => {
+export const ServiceCard = ({ icon, title, description }: IServiceCard) => {
   return (
     <motion.div
       whileHover={{

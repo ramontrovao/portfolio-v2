@@ -25,10 +25,11 @@ export const ProjectsSection = () => {
             spaceBetween: 150,
           },
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 3.5,
+            spaceBetween: 20,
           },
         }}
-        className="mt-16 w-[90%] h-full cursor-grab"
+        className="mt-16 w-full h-full cursor-grab"
       >
         <SwiperSlide>
           <ProjectCard />

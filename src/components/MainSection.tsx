@@ -28,9 +28,9 @@ export const MainSection = () => {
         linear
         flat
       >
-        <Stage environment="city" adjustCamera={true} intensity={1}>
+        <Stage intensity={1}>
           <Keyboard />
-          <OrbitControls enableZoom={true} />
+          <OrbitControls autoRotate enableZoom={false} />
         </Stage>
       </Canvas>
     </section>

@@ -15,7 +15,11 @@ export function Keyboard(props: any) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
-        <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>
+        <group
+          name="Sketchfab_model"
+          position={[5, 5, 50]}
+          rotation={[-Math.PI / 5, 5, 0]}
+        >
           <group name="root">
             <group name="GLTF_SceneRootNode" rotation={[Math.PI / 2, 0, 0]}>
               <group

@@ -11,7 +11,7 @@ export const AboutMeSection = () => {
     >
       <div className="absolute w-full h-full flex justify-center align-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] max-md:hidden">
         <strong className="bg-clip-text bg-gradient-to-r from-zinc-800 to-zinc-900 opacity-5 text-8xl text-center cursor-default selection:bg-transparent">
-          ARRASTE OS ITENS
+          ARRASTE OS ÍCONES
         </strong>
       </div>
 
@@ -32,27 +32,37 @@ export const AboutMeSection = () => {
         </p>
       </div>
 
-      <div className="absolute z-30 flex self-end flex-col justify-center items-center max-md:hidden">
+      <div className="absolute z-30 grid grid-cols-2 self-end gap-5 max-md:hidden">
         <motion.div
-          className="bg-arrow-left bg-cover w-24 h-24 cursor-grab"
+          className="bg-typescript bg-contain w-12 h-12 cursor-grab"
           drag
           dragConstraints={constraintsRef}
         />
 
         <motion.div
-          className="bg-arrow-down bg-cover w-24 h-24 cursor-grab"
+          className="bg-next-js bg-no-repeat bg-contain w-12 h-12 cursor-grab"
           drag
           dragConstraints={constraintsRef}
         />
 
         <motion.div
-          className="bg-arrow-up bg-cover w-24 h-24 cursor-grab"
+          className="bg-react bg-no-repeat bg-contain w-12 h-12 cursor-grab"
           drag
           dragConstraints={constraintsRef}
         />
 
         <motion.div
-          className="bg-arrow-right bg-cover w-24 h-24 cursor-grab"
+          className="bg-tailwind bg-no-repeat bg-contain w-12 h-12 cursor-grab"
+          drag
+          dragConstraints={constraintsRef}
+        />
+        <motion.div
+          className="bg-nodejs bg-no-repeat bg-contain w-12 h-12 cursor-grab"
+          drag
+          dragConstraints={constraintsRef}
+        />
+        <motion.div
+          className="bg-jest bg-no-repeat bg-contain w-12 h-12 cursor-grab"
           drag
           dragConstraints={constraintsRef}
         />

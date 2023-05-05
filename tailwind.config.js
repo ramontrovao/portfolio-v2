@@ -8,10 +8,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "arrow-up": "url('/assets/ArrowUpPress.png')",
-        "arrow-down": "url('/assets/ArrowDownPress.png')",
-        "arrow-left": "url('/assets/ArrowLeftPress.png')",
-        "arrow-right": "url('/assets/ArrowRightPress.png')",
+        typescript: "url('/assets/typescript.svg')",
+        "next-js": "url('/assets/next-js.svg')",
+        react: "url('/assets/react.svg')",
+        tailwind: "url('/assets/tailwind.svg')",
+        nodejs: "url('/assets/nodejs.svg')",
       },
     },
   },

@@ -13,7 +13,7 @@ const poppins = Poppins({
 export const Footer = () => {
   return (
     <footer
-      className={`w-full p-10 flex justify-between items-center border-t-2 bg-gray-200 border-gray-800 ${poppins.className}`}
+      className={`w-full p-10 flex justify-between items-center border-t-[1px] bg-gray-200 border-zinc-400 ${poppins.className}`}
     >
       <div>
         <div>

@@ -19,17 +19,12 @@ export const ProjectsSection = () => {
 
       <Swiper
         breakpoints={{
-          425: {
-            slidesPerView: 1,
-            spaceBetween: 800,
+          0: {
+            spaceBetween: 30,
           },
           768: {
-            slidesPerView: 2,
-            spaceBetween: 150,
-          },
-          1024: {
-            slidesPerView: 3.5,
-            spaceBetween: 20,
+            spaceBetween: 10,
+            slidesPerView: 1.1,
           },
         }}
         className="mt-16 w-full h-full cursor-grab"

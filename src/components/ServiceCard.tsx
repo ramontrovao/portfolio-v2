@@ -17,13 +17,13 @@ export const ServiceCard = ({ icon, title, description }: IServiceCard) => {
         boxShadow: "rgba(0, 0, 0, 0.35) 0px 10px 50px",
         transition: { duration: 0.25 },
       }}
-      className="w-80 h-auto py-10 px-6 flex flex-col justify-center items-center bg-gradient-to-r border-2 border-gray-300 from-gray-200 to-gray-300 rounded-lg"
+      className="w-80 min-h-[30rem] py-10 px-6 flex gap-10 flex-col justify-center items-center bg-gradient-to-r border-2 border-gray-300 from-gray-200 to-gray-300 rounded-lg"
     >
       <div className="w-16 h-16 flex justify-center items-center rounded-lg bg-gray-300 border-2 border-gray-400 text-purple-400">
         {icon}
       </div>
 
-      <div className="mt-10 flex flex-col justify-center align-center">
+      <div className="flex flex-col justify-center align-center">
         <strong className="text-center text-lg font-bold text-zinc-900">
           {title}
         </strong>

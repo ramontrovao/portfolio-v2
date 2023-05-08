@@ -56,20 +56,28 @@ export const Header = () => {
           } bg-gray-200 top-20 flex flex-col gap-4 w-full absolute py-10 transition-all duration-500 md:static md:bg-transparent md:py-0 md:flex md:flex-row md:justify-end md:items-center md:gap-5 md:visible`}
         >
           <li>
-            <Anchor href="#inicio">Início</Anchor>
+            <Anchor href="#inicio" onClick={() => setMenuIsOpen(false)}>
+              Início
+            </Anchor>
           </li>
           <li>
-            <Anchor href="#sobre-mim">Sobre mim</Anchor>
+            <Anchor href="#sobre-mim" onClick={() => setMenuIsOpen(false)}>
+              Sobre mim
+            </Anchor>
           </li>
           <li>
-            <Anchor href="#servicos">Habilidades</Anchor>
+            <Anchor href="#servicos" onClick={() => setMenuIsOpen(false)}>
+              Habilidades
+            </Anchor>
           </li>
           <li>
-            <Anchor href="#projetos">Projetos</Anchor>
+            <Anchor href="#projetos" onClick={() => setMenuIsOpen(false)}>
+              Projetos
+            </Anchor>
           </li>
 
           <li>
-            <a href="#contato">
+            <a href="#contato" onClick={() => setMenuIsOpen(false)}>
               <Button>Vamos conversar?</Button>
             </a>
           </li>

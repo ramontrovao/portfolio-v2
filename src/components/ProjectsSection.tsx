@@ -6,7 +6,7 @@ import { ProjectCard } from "./ProjectCard";
 export const ProjectsSection = () => {
   return (
     <section
-      className="flex flex-col justify-center items-center py-24 px-10 bg-gray-200"
+      className="flex flex-col justify-center items-center py-12 px-5 md:px-10 md:py-24 bg-gray-200"
       id="projetos"
     >
       <h2 className="text-center text-zinc-900 font-bold text-4xl">
@@ -19,14 +19,11 @@ export const ProjectsSection = () => {
 
       <Swiper
         breakpoints={{
-          0: {
-            spaceBetween: 30,
-          },
           768: {
-            spaceBetween: 10,
             slidesPerView: 1.1,
           },
         }}
+        spaceBetween={20}
         className="mt-16 w-full h-full cursor-grab"
       >
         <SwiperSlide>

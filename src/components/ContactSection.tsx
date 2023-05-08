@@ -4,7 +4,7 @@ import { Anchor } from "./Anchor";
 export const ContactSection = () => {
   return (
     <section
-      className="pt-24 pb-48 px-10 flex flex-col justify-center items-center gap-10 bg-gray-200"
+      className=" px-5 pt-12 pb-24 md:pt-24 md:pb-48 md:px-10 flex flex-col justify-center items-center gap-10 bg-gray-200"
       id="contato"
     >
       <strong className="text-center text-2xl text-zinc-900 font-bold md:text-3xl">

@@ -9,7 +9,7 @@ import { ServiceCard } from "./ServiceCard";
 export const ServicesSection = () => {
   return (
     <section
-      className="py-24 px-10 flex flex-col justify-center items-center bg-gray-200 min-h-screen"
+      className="py-12 px-5 md:py-24 md:px-10 flex flex-col justify-center items-center bg-gray-200 min-h-screen"
       id="servicos"
     >
       <div className="flex justify-center">
@@ -22,7 +22,7 @@ export const ServicesSection = () => {
         </h2>
       </div>
 
-      <div className="mt-16 w-full flex gap-10 justify-between items-center flex-wrap md:gap-0">
+      <div className="mt-16 w-full flex flex-nowrap gap-10 justify-between items-center max-[1080px]:flex-wrap max-[1080px]:justify-center">
         <ServiceCard
           icon={<AiOutlineDesktop size={32} />}
           title="Front-end Development"

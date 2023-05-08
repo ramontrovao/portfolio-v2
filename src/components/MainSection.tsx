@@ -6,7 +6,7 @@ import { Keyboard } from "./Keyboard";
 export const MainSection = () => {
   return (
     <section
-      className="min-h-screen py-24 px-10 flex items-center bg-gray-200"
+      className="min-h-screen py-12 px-5 md:py-24 md:px-10 flex items-center bg-gray-200"
       id="inicio"
     >
       <div className="w-full flex flex-col gap-2">

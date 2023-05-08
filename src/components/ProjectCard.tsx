@@ -8,7 +8,7 @@ import { Button } from "./Button";
 export const ProjectCard = () => {
   return (
     <div className="rounded-md flex flex-col-reverse bg-gray-300 md:max-w-[65rem] md:max-h-[25rem] md:flex-row">
-      <div className="flex flex-col gap-5 p-12">
+      <div className="flex flex-col gap-5 p-6 md:p-12">
         <strong className="text-zinc-900 text-2xl">Codesec</strong>
         <p className="text-zinc-900 text-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum

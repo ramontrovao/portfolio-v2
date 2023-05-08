@@ -25,7 +25,7 @@ export const Header = () => {
 
   return (
     <header
-      className={`px-10 z-50 py-5 fixed w-full transition-all duration-500 font-body ${
+      className={`px-5 md:px-10 z-50 py-5 fixed w-full transition-all duration-500 font-body ${
         isMaximized ? "bg-gray-200 shadow-2xl" : "bg-transparent"
       } ${poppins.className}`}
     >

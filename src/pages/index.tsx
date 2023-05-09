@@ -1,10 +1,10 @@
+import Head from "next/head";
+
 import { AboutMeSection } from "@/components/AboutMeSection";
-import { ArrowUp } from "@/components/ArrowUp";
 import { ContactSection } from "@/components/ContactSection";
 import { MainSection } from "@/components/MainSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { ServicesSection } from "@/components/ServicesSection";
-import Head from "next/head";
 
 const Home = () => {
   return (
@@ -19,8 +19,6 @@ const Home = () => {
       <ServicesSection />
       <ProjectsSection />
       <ContactSection />
-
-      <ArrowUp />
     </>
   );
 };

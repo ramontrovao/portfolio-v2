@@ -26,10 +26,10 @@ export const ProjectCard = ({
         <strong className="text-zinc-900 text-2xl">{title}</strong>
         <p className="text-zinc-900 text-lg">{description}</p>
 
-        <Anchor href={repoUrl}>
+        <Anchor href={repoUrl} target="_blank">
           <Button>Repositório</Button>
         </Anchor>
-        <Anchor href={productionUrl}>
+        <Anchor href={productionUrl} target="_blank">
           <Button>Produção</Button>
         </Anchor>
       </div>

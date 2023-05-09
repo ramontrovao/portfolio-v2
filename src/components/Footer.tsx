@@ -57,7 +57,7 @@ export const Footer = () => {
       </div>
 
       <a href="#inicio">
-        <Image src={logo} alt="" className="w-12" />
+        <Image src={logo} alt="" className="w-8 md:w-12" />
       </a>
     </footer>
   );

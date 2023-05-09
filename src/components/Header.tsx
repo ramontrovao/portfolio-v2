@@ -53,7 +53,7 @@ export const Header = () => {
         <ul
           className={`${
             menuIsOpen ? "left-0 pl-10" : "left-[-880px]"
-          } bg-gray-200 top-20 flex flex-col gap-4 w-full absolute py-10 transition-all duration-500 md:static md:bg-transparent md:py-0 md:flex md:flex-row md:justify-end md:items-center md:gap-5 md:visible`}
+          } bg-gray-200 top-20 px-10 flex flex-col gap-4 w-full absolute py-10 transition-all duration-500 md:static md:bg-transparent md:py-0 md:flex md:flex-row md:justify-end md:items-center md:gap-5 md:visible`}
         >
           <li>
             <Anchor href="#inicio" onClick={() => setMenuIsOpen(false)}>

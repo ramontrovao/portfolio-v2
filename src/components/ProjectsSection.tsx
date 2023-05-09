@@ -69,7 +69,7 @@ export const ProjectsSection = () => {
       <Swiper
         breakpoints={{
           768: {
-            slidesPerView: 1.1,
+            slidesPerView: 1.25,
           },
         }}
         spaceBetween={20}
@@ -77,7 +77,7 @@ export const ProjectsSection = () => {
       >
         {projectsList.map(
           ({ title, description, productionUrl, repoUrl, preview }) => (
-            <SwiperSlide>
+            <SwiperSlide key={title}>
               <ProjectCard
                 title={title}
                 description={description}

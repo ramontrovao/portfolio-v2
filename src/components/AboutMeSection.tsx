@@ -7,7 +7,7 @@ export const AboutMeSection = () => {
   return (
     <motion.section
       ref={constraintsRef}
-      className="relative min-h-fit pt-24 pb-12 px-5 md:pt-44 md:pb-24 md:px-10 flex flex-col justify-start items-start overflow-hidden bg-gray-200"
+      className="relative min-h-fit pt-12 pb-12 px-5 md:pt-44 md:pb-24 md:px-10 flex flex-col justify-start items-start overflow-hidden bg-gray-200"
       id="sobre-mim"
     >
       <div className="absolute w-full h-full flex justify-center align-center top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] max-md:hidden">

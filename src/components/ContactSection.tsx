@@ -15,9 +15,12 @@ export const ContactSection = () => {
         e aí, vamos trabalhar juntos?
       </strong>
 
-      <h2 className="text-2xl p-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-700 md:text-6xl">
+      <a
+        href="mailto:ramontrov@gmail.com"
+        className="text-2xl p-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-700 transition-all duration-500 hover:opacity-75 md:text-6xl"
+      >
         ramontrov@gmail.com
-      </h2>
+      </a>
 
       <nav>
         <ul className="flex gap-5">

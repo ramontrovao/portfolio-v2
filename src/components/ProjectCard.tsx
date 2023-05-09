@@ -21,10 +21,12 @@ export const ProjectCard = ({
   preview,
 }: IProjectCard) => {
   return (
-    <div className="rounded-md flex flex-col-reverse bg-gray-300 md:max-w-[65rem] md:max-h-[25rem] md:flex-row">
+    <div className="rounded-md flex flex-col-reverse bg-gray-300 min-h-[30rem] md:max-w-[65rem] md:flex-row">
       <div className="flex flex-col gap-5 p-6 md:p-12">
-        <strong className="text-zinc-900 text-2xl">{title}</strong>
-        <p className="text-zinc-900 text-lg">{description}</p>
+        <div className="flex-1">
+          <strong className="text-zinc-900 text-2xl">{title}</strong>
+          <p className="mt-5 text-zinc-900 text-lg">{description}</p>
+        </div>
 
         <Anchor href={repoUrl} target="_blank">
           <Button>Repositório</Button>

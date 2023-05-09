@@ -1,6 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
+import thunderShopPreview from "@assets/thunder-shop-preview.png";
+import coffeeDeliveryPreview from "@assets/coffee-delivery-preview.png";
+import githubBlogPreview from "@assets/github-blog-preview.png";
+
 import { ProjectCard } from "./ProjectCard";
 
 export const ProjectsSection = () => {
@@ -26,21 +30,6 @@ export const ProjectsSection = () => {
         spaceBetween={20}
         className="mt-16 w-full h-full cursor-grab"
       >
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProjectCard />
-        </SwiperSlide>
         <SwiperSlide>
           <ProjectCard />
         </SwiperSlide>

@@ -1,4 +1,8 @@
-import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
+import {
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+  AiOutlineMail,
+} from "react-icons/ai";
 import { Anchor } from "./Anchor";
 
 export const ContactSection = () => {
@@ -25,6 +29,11 @@ export const ContactSection = () => {
           <li>
             <Anchor href="https://linkedin.com/ramon-pinheiro">
               <AiOutlineLinkedin size={32} />
+            </Anchor>
+          </li>
+          <li>
+            <Anchor href="/assets/ramon-pinheiro-cv.pdf">
+              <AiOutlineMail size={32} />
             </Anchor>
           </li>
         </ul>

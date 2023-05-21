@@ -25,17 +25,17 @@ export const ContactSection = () => {
       <nav>
         <ul className="flex gap-5">
           <li>
-            <Anchor href="https://github.com/ramontrovao">
+            <Anchor href="https://github.com/ramontrovao" target="_blank">
               <AiOutlineGithub size={32} />
             </Anchor>
           </li>
           <li>
-            <Anchor href="https://linkedin.com/ramon-pinheiro">
+            <Anchor href="https://linkedin.com/ramon-pinheiro" target="_blank">
               <AiOutlineLinkedin size={32} />
             </Anchor>
           </li>
           <li>
-            <Anchor href="/assets/ramon-pinheiro-cv.pdf">
+            <Anchor href="/assets/ramon-pinheiro-cv.pdf" target="_blank">
               <AiOutlineMail size={32} />
             </Anchor>
           </li>

@@ -46,11 +46,11 @@ export const Footer = () => {
         </div>
 
         <nav className="mt-5 flex align-center gap-2">
-          <Anchor href="https://github.com/ramontrovao">
+          <Anchor href="https://github.com/ramontrovao" target="_blank">
             <IoLogoGithub size={28} />
           </Anchor>
 
-          <Anchor href="https://linkedin.com/ramon-pinheiro">
+          <Anchor href="https://linkedin.com/ramon-pinheiro" target="_blank">
             <IoLogoLinkedin size={28} />
           </Anchor>
         </nav>

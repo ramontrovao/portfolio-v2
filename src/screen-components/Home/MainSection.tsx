@@ -30,12 +30,15 @@ export const MainSection = () => {
         <nav>
           <ul className="flex gap-3">
             <li>
-              <Anchor href="https://github.com/ramontrovao">
+              <Anchor href="https://github.com/ramontrovao" target="_blank">
                 <AiOutlineGithub size={28} />
               </Anchor>
             </li>
             <li>
-              <Anchor href="https://linkedin.com/ramon-pinheiro">
+              <Anchor
+                href="https://linkedin.com/ramon-pinheiro"
+                target="_blank"
+              >
                 <AiOutlineLinkedin size={28} />
               </Anchor>
             </li>

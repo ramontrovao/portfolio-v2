@@ -38,6 +38,7 @@ export const ProjectCard = ({
         src={preview}
         alt=""
         className="w-full object-cover rounded-tr-md rounded-tl-md md:w-1/2 md:rounded-tl-none md:rounded-br-md"
+        priority
       />
     </div>
   );

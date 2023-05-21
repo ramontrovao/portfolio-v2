@@ -4,7 +4,7 @@ import {
   AiOutlineNodeIndex,
 } from "react-icons/ai";
 
-import { ServiceCard } from "./ServiceCard";
+import { ServiceCard } from "@components/ServiceCard";
 
 export const ServicesSection = () => {
   return (

@@ -1,10 +1,10 @@
 import Head from "next/head";
 
-import { AboutMeSection } from "@/components/AboutMeSection";
-import { ContactSection } from "@/components/ContactSection";
-import { MainSection } from "@/components/MainSection";
-import { ProjectsSection } from "@/components/ProjectsSection";
-import { ServicesSection } from "@/components/ServicesSection";
+import { AboutMeSection } from "@screen-components/Home/AboutMeSection";
+import { ContactSection } from "@screen-components/Home/ContactSection";
+import { MainSection } from "@screen-components/Home/MainSection";
+import { ProjectsSection } from "@screen-components/Home/ProjectsSection";
+import { ServicesSection } from "@screen-components/Home/ServicesSection";
 
 const Home = () => {
   return (

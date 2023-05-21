@@ -6,8 +6,8 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 
-import { Keyboard } from "./Keyboard";
-import { Anchor } from "./Anchor";
+import { Keyboard } from "@components/Keyboard";
+import { Anchor } from "@components/Anchor";
 
 export const MainSection = () => {
   return (

@@ -3,7 +3,7 @@ import {
   AiOutlineLinkedin,
   AiOutlineMail,
 } from "react-icons/ai";
-import { Anchor } from "./Anchor";
+import { Anchor } from "@components/Anchor";
 
 export const ContactSection = () => {
   return (

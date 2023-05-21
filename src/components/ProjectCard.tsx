@@ -1,7 +1,5 @@
 import Image, { StaticImageData } from "next/image";
 
-import test from "@assets/codesec-preview.png";
-
 import { Button } from "./Button";
 import { Anchor } from "./Anchor";
 
@@ -21,7 +19,7 @@ export const ProjectCard = ({
   preview,
 }: IProjectCard) => {
   return (
-    <div className="rounded-md flex flex-col-reverse bg-gray-300 min-h-[30rem] md:max-w-[65rem] md:flex-row">
+    <div className="rounded-md flex flex-col-reverse bg-gray-300 h-[35rem] md:h-[32rem] md:max-w-[65rem] md:flex-row">
       <div className="flex flex-col gap-5 p-6 md:p-12">
         <div className="flex-1">
           <strong className="text-zinc-900 text-2xl">{title}</strong>

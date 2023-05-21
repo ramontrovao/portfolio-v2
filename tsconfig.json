@@ -25,6 +25,9 @@
       "@components/*": [
         "./src/components/*"
       ],
+      "@screen-components/*": [
+        "./src/screen-components/*"
+      ],
       "@assets/*": [
         "./public/assets/*"
       ]

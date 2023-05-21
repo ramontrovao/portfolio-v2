@@ -7,7 +7,8 @@ import githubBlogPreview from "@assets/github-blog-preview.png";
 import codesecPreview from "@assets/codesec-preview.png";
 import portfolioPreview from "@assets/portfolio-preview.png";
 
-import { ProjectCard } from "./ProjectCard";
+import { ProjectCard } from "@components/ProjectCard";
+import { Button } from "@components/Button";
 
 const projectsList = [
   {
@@ -69,10 +70,10 @@ export const ProjectsSection = () => {
       <Swiper
         breakpoints={{
           768: {
-            slidesPerView: 1.25,
+            slidesPerView: 1.5,
           },
         }}
-        spaceBetween={20}
+        spaceBetween={15}
         className="mt-16 w-full h-full cursor-grab"
       >
         {projectsList.map(
@@ -88,6 +89,35 @@ export const ProjectsSection = () => {
             </SwiperSlide>
           )
         )}
+        <SwiperSlide>
+          <div className="px-6 rounded-md flex flex-col justify-center items-center gap-8 bg-gray-300 h-[42rem] md:h-[32rem] md:max-w-3xl md:px-12">
+            <header className="flex justify-center align-center">
+              <strong className="text-zinc-900 text-center text-3xl">
+                Gostou dos meus{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-700">
+                  projetos
+                </span>{" "}
+                e deseja ver mais?
+              </strong>
+            </header>
+
+            <main>
+              <p className="text-zinc-900 text-lg text-center">
+                Possuo mais de <b>400h</b> escrevendo código e mais de{" "}
+                <b>50 repositórios</b> no total em meu github. Acesse ele no
+                link abaixo e clique na aba "repositórios" para ver mais
+                projetos incríveis como esses que estão aqui no slide. Tenho
+                certeza que você vai gostar de todos eles! :D
+              </p>
+            </main>
+
+            <footer>
+              <a href="https://github.com/ramontrovao" className="no-underline">
+                <Button>Veja mais clicando aqui</Button>
+              </a>
+            </footer>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </section>
   );

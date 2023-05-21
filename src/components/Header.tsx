@@ -67,7 +67,7 @@ export const Header = () => {
           </li>
           <li>
             <Anchor href="#servicos" onClick={() => setMenuIsOpen(false)}>
-              Habilidades
+              Serviços
             </Anchor>
           </li>
           <li>

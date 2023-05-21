@@ -75,6 +75,14 @@ export const Header = () => {
               Projetos
             </Anchor>
           </li>
+          <li>
+            <Anchor
+              href="/assets/ramon-pinheiro-cv.pdf"
+              onClick={() => setMenuIsOpen(false)}
+            >
+              Currículo
+            </Anchor>
+          </li>
 
           <li>
             <a href="#contato" onClick={() => setMenuIsOpen(false)}>

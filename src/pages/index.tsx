@@ -11,20 +11,26 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Ramon Pinheiro | Desenvolvedor de software</title>
+        <title>Ramon Pinheiro Trovão | Desenvolvedor de software</title>
         <link rel="icon" type="image/x-icon" href="/assets/logo.svg" />
-        <meta name="title" content="Ramon Pinheiro" />
+        <meta name="title" content="Ramon Pinheiro Trovão" />
+        <meta name="language" content="pt-br" />
         <meta
           name="description"
-          content="Sou desenvolvedor mobile fullstack e trabalho com as melhores tecnologias do mercado."
+          content="Ramon Pinheiro Trovão é um desenvolvedor mobile & front-end brasileiro que utiliza as melhores tecnologias atuais do mercado para construir softwares de alta qualidade e fidelidade."
         />
+        <meta
+          name="keywords"
+          content="Ramon Trovão, Ramon Pinheiro Trovão, Ramon Pinheiro, Ramon, Ramon Trovao, Desenvolvedor"
+        />
+        <meta name="robots" content="index, follow" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ramontrovao.tech/" />
-        <meta property="og:title" content="Ramon Pinheiro" />
+        <meta property="og:title" content="Ramon Pinheiro Trovão" />
         <meta
           property="og:description"
-          content="Sou desenvolvedor mobile fullstack e trabalho com as melhores tecnologias do mercado."
+          content="Ramon Pinheiro Trovão é um desenvolvedor mobile & front-end brasileiro que utiliza as melhores tecnologias atuais do mercado para construir softwares de alta qualidade e fidelidade."
         />
         <meta
           property="og:image"
@@ -33,10 +39,10 @@ const Home = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://ramontrovao.tech" />
-        <meta property="twitter:title" content="Ramon Pinheiro" />
+        <meta property="twitter:title" content="Ramon Pinheiro Trovão" />
         <meta
           property="twitter:description"
-          content="Sou desenvolvedor mobile fullstack e trabalho com as melhores tecnologias do mercado."
+          content="Ramon Pinheiro Trovão é um desenvolvedor mobile & front-end brasileiro que utiliza as melhores tecnologias atuais do mercado para construir softwares de alta qualidade e fidelidade."
         />
         <meta
           property="twitter:image"

@@ -25,11 +25,11 @@ export const Header = () => {
 
   return (
     <header
-      className={`px-5 md:px-10 z-50 py-5 fixed w-full transition-all duration-500 font-body ${
+      className={`flex justify-center items-center w-full z-50 px-5 py-5 fixed w-full transition-all duration-500 font-body md:px-8 ${
         isMaximized ? "bg-gray-200 shadow-2xl" : "bg-transparent"
       } ${poppins.className}`}
     >
-      <nav className="flex flex-col items-center md:flex-row bg">
+      <nav className="w-full max-w-[75rem] flex flex-col items-center md:flex-row bg">
         <div className="max-md:w-full max-md:flex max-md:justify-between max-md:items-center">
           <a href="#inicio">
             <Image
@@ -52,8 +52,8 @@ export const Header = () => {
 
         <ul
           className={`${
-            menuIsOpen ? "left-0 pl-10" : "left-[-880px]"
-          } bg-gray-200 top-20 px-10 flex flex-col gap-4 w-full absolute py-10 transition-all duration-500 md:static md:bg-transparent md:py-0 md:flex md:flex-row md:justify-end md:items-center md:gap-5 md:visible`}
+            menuIsOpen ? "left-0" : "left-[-880px]"
+          } bg-gray-200 top-20 px-5 flex flex-col gap-4 w-full absolute py-10 transition-all duration-500 md:static md:bg-transparent md:px-0 md:py-0 md:flex md:flex-row md:justify-end md:items-center md:gap-5 md:visible`}
         >
           <li>
             <Anchor href="#inicio" onClick={() => setMenuIsOpen(false)}>

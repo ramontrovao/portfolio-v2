@@ -3,9 +3,5 @@ import { DefaultLayout } from "@/layouts/DefaultLayout";
 import "@/styles/globals.css";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return (
-    <DefaultLayout>
-      <Component {...pageProps} />
-    </DefaultLayout>
-  );
+  return <Component {...pageProps} />;
 }

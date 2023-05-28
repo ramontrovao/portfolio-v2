@@ -5,6 +5,7 @@ import { ContactSection } from "@screen-components/Home/ContactSection";
 import { MainSection } from "@screen-components/Home/MainSection";
 import { ProjectsSection } from "@screen-components/Home/ProjectsSection";
 import { ServicesSection } from "@screen-components/Home/ServicesSection";
+import { DefaultLayout } from "@/layouts/DefaultLayout";
 
 const Home = () => {
   return (
@@ -43,11 +44,15 @@ const Home = () => {
         />
       </Head>
 
-      <MainSection />
-      <AboutMeSection />
-      <ServicesSection />
-      <ProjectsSection />
-      <ContactSection />
+      <div className="bg-gray-200">
+        <DefaultLayout>
+          <MainSection />
+          <AboutMeSection />
+          <ServicesSection />
+          <ProjectsSection />
+          <ContactSection />
+        </DefaultLayout>
+      </div>
     </>
   );
 };

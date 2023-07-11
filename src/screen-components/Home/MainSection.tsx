@@ -36,7 +36,7 @@ export const MainSection = () => {
             </li>
             <li>
               <Anchor
-                href="https://linkedin.com/ramon-pinheiro"
+                href="https://linkedin.com/in/ramon-pinheiro"
                 target="_blank"
               >
                 <AiOutlineLinkedin size={28} />

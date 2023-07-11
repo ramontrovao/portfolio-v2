@@ -50,7 +50,7 @@ export const Footer = () => {
             <IoLogoGithub size={28} />
           </Anchor>
 
-          <Anchor href="https://linkedin.com/ramon-pinheiro" target="_blank">
+          <Anchor href="https://linkedin.com/in/ramon-pinheiro" target="_blank">
             <IoLogoLinkedin size={28} />
           </Anchor>
         </nav>
